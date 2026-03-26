@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.casal {
+max-width: 700px;
+    width: 100%;
+    height: auto;
+}
+
+.estetica {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 40px;          /* Reduzido para não empurrar os itens para fora */
+  padding: 60px 20px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2, p {
+    text-align: center;
+}
+
+.insta, .zap {
+    width: 60px;
+}
+
+.face {
+    width: 45px;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0;    /* Diminuído para o header ficar fino */
+  height: 80px;       /* Altura fixa opcional para controle total */
+  background-color: #1A5E32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header img {
+  height: auto;       /* Deixa a altura livre */
+  max-height: 90px;   /* AUMENTADO: De 50px para 90px (ajuste conforme o Figma) */
+  width: auto;
+  display: block;
+}
