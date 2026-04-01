@@ -74,38 +74,37 @@ header img {
 
 .caminhos {
     display: flex;
-    justify-content: center; /* centraliza horizontalmente */
-    gap: 20px; /* espaço entre os links */
+    justify-content: center;
+    gap: 20px; 
 }
 
 
 .estetica2 {
     display: flex;
-    justify-content: center; /* centro horizontal */
-    align-items: center; /* centro vertical */
+    justify-content: center; 
+    align-items: center; 
     gap: 40px;
     flex-wrap: wrap;
     text-align: center;
 
-    min-height: 70vh; /* ocupa altura da tela */
+    min-height: 70vh;
 }
 
 .estetica2 div {
-    width: 250px; /* controla o tamanho de cada bloco */
+    width: 250px;
 }
 
 .contato-container {
     display: flex;
-    justify-content: center; /* centro horizontal */
-    align-items: center;     /* centro vertical */
+    justify-content: center;
+    align-items: center;
     gap: 50px;
     flex-wrap: wrap;
 
-    min-height: 70vh; /* ocupa altura da tela */
+    min-height: 70vh;
     text-align: center;
 }
 
-/* Container dos produtos */
 .produtos-container {
     display: flex;
     justify-content: center;
@@ -114,7 +113,6 @@ header img {
     padding: 20px;
 }
 
-/* Cards dos produtos */
 .produto-card {
     border: 1px solid #ccc;
     padding: 15px;
@@ -122,14 +120,12 @@ header img {
     text-align: center;
 }
 
-/* Imagens */
 .produto-card img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
-/* Título e descrição */
 .produto-card h3 {
     margin: 10px 0 5px 0;
     font-size: 16px;
