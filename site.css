@@ -27,8 +27,8 @@ max-width: 700px;
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
-  gap: 40px;          /* Reduzido para não empurrar os itens para fora */
-  padding: 60px 20px;
+  gap: 40px;         
+  padding: 20px;
 }
 
 footer {
@@ -50,8 +50,8 @@ h2, p {
 
 header {
   width: 100%;
-  padding: 10px 0;    /* Diminuído para o header ficar fino */
-  height: 80px;       /* Altura fixa opcional para controle total */
+  padding: 10px 0;    
+  height: 80px;     
   background-color: #1A5E32;
   display: flex;
   justify-content: center;
@@ -60,8 +60,82 @@ header {
 }
 
 header img {
-  height: auto;       /* Deixa a altura livre */
-  max-height: 90px;   /* AUMENTADO: De 50px para 90px (ajuste conforme o Figma) */
+  height: auto;      
+  max-height: 90px;  
   width: auto;
   display: block;
+}
+
+.sobrenos, .produtos, .contato{
+    text-decoration:none;
+    background-color: white;
+    color: black;
+}
+
+.caminhos {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 20px; /* espaço entre os links */
+}
+
+
+.estetica2 {
+    display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: center; /* centro vertical */
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+
+    min-height: 70vh; /* ocupa altura da tela */
+}
+
+.estetica2 div {
+    width: 250px; /* controla o tamanho de cada bloco */
+}
+
+.contato-container {
+    display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: center;     /* centro vertical */
+    gap: 50px;
+    flex-wrap: wrap;
+
+    min-height: 70vh; /* ocupa altura da tela */
+    text-align: center;
+}
+
+/* Container dos produtos */
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Cards dos produtos */
+.produto-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Imagens */
+.produto-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Título e descrição */
+.produto-card h3 {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+}
+
+.produto-card p {
+    font-size: 14px;
+    color: #333;
 }
